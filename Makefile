@@ -2,7 +2,7 @@ all:
 	gcc -Wall -save-temps -g -o ./hello-world.exe ./hello-world.c
 
 clean:
-	rm ./hello-world.exe;
+	rm ./hello-world.exe
 	rm ./hello-world.i
 	rm ./hello-world.s
 	rm ./hello-world.o
@@ -17,3 +17,5 @@ clean:
 # date ven 19 fév 2021 15:08:32 CET
 # date ven 19 fév 2021 15:39:07 CET
 # date ven 19 fév 2021 18:04:09 CET
+# date sam 20 fév 2021 18:29:07 CET
+#
